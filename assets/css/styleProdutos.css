@@ -69,7 +69,8 @@ button{
     margin: 40px 5px;
     letter-spacing: 2px;
     text-transform: capitalize;
-    box-shadow: 0 15px 10px rgba(0,0,0,0.4);  
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+      
 }
 
 
@@ -83,6 +84,8 @@ button{
     gap: 30px;
     padding: 20px 50px;
     flex-wrap: wrap;
+    
+    
 
 }
 
@@ -90,11 +93,14 @@ button{
     
     flex: 1 0 33%;
     max-width: 600px;
+    margin-top:auto
+   
    
 }
 
 .botoes{
     display: flex;
+    
    
 }
 
