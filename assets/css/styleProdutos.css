@@ -1,0 +1,108 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    background-color: aqua;
+    width: 100%;
+}
+header {
+    overflow: hidden; 
+  }
+  .navItens{
+    display: flex;
+    }
+    .navItens li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    .navItens li a {
+        font-size: 25px;
+        color: #3d535f;
+        letter-spacing: 3px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .logo{
+        display: flex;
+        font-size: 40px;
+        font-weight: 800;
+        color: #3d535f;
+        letter-spacing: 3px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .navItens li:hover a,
+.links a{
+    color: aqua
+}
+.links a{
+font-size: 30px;
+color: #3d535f;
+margin: 25px 10px;
+}
+
+
+  
+.h2 {
+	margin: 0;
+  }
+
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #3d535f;
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.4);  
+}
+
+
+
+ .img {
+     max-width: 600px; 
+     
+    }
+.card-content{
+    display: flex;
+    gap: 30px;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+
+}
+
+.projetos{
+    
+    flex: 1 0 33%;
+    max-width: 600px;
+   
+}
+
+.botoes{
+    display: flex;
+   
+}
+
+li{
+    List-style-type: none
+}
+
+.tecnologias{
+    color: aqua;
+    font-weight: 900;
+}
