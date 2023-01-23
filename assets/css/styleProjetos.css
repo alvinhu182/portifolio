@@ -10,7 +10,7 @@
 
 /* TABLETS E CELULARES */ 
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .navbar {
        width: 100%;
        
