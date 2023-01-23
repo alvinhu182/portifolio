@@ -15,7 +15,7 @@
             justify-content: space-around;
             height: 70px;
             line-height: 50px;
-            background-color: aqua;
+            background-color: cornflowerblue;
             width: 100%;
             
             margin: auto;
@@ -48,7 +48,7 @@
             }
             .navItens li:hover a,
         .links a{
-            color: aqua
+            color: cornflowerblue
         }
         .links a{
         font-size: 12px;
@@ -106,10 +106,10 @@
         
         }
         .buttonlink:hover{
-            background-color: aqua;
+            background-color: cornflowerblue;
         }
         button:hover{
-            background-color: aqua;
+            background-color: cornflowerblue;
         }
         .imgbox{
             position: relative;
@@ -141,7 +141,7 @@
             animation: animate 12s linear infinite;
         }
         .multiText{
-            color: aqua;
+            color: cornflowerblue;
             text-transform: capitalize;
         }
         .topline{
@@ -171,7 +171,7 @@
         justify-content: space-around;
         height: 70px;
         line-height: 50px;
-        background-color: aqua;
+        background-color: cornflowerblue;
         width: 100%;
         
         margin: auto;
@@ -203,7 +203,7 @@
         }
         .navItens li:hover a,
     .links a{
-        color: aqua
+        color: cornflowerblue
     }
     .links a{
     font-size: 15px;
@@ -252,10 +252,10 @@
     
     }
     .buttonlink:hover{
-        background-color: aqua;
+        background-color: cornflowerblue;
     }
     button:hover{
-        background-color: aqua;
+        background-color: cornflowerblue;
     }
     .imgbox{
         position: relative;
@@ -288,7 +288,7 @@
         animation: animate 12s linear infinite;
     }
     .multiText{
-        color: aqua;
+        color: cornflowerblue;
         text-transform: capitalize;
     }
     .topline{
@@ -317,7 +317,7 @@
           height: 80px;
           line-height: 80px;
           z-index: 111;
-          background-color: aqua;
+          background-color: cornflowerblue;
           
       }
       .logo{
@@ -331,7 +331,7 @@
       }
       b{
       font-size: 70px;
-      color: aqua
+      color: cornflowerblue
       }
       .navItens{
       display: flex;
@@ -349,7 +349,7 @@
       }
       .navItens li:hover a,
       .links a{
-          color: aqua
+          color: cornflowerblue
       }
       .links a{
       font-size: 30px;
@@ -373,7 +373,7 @@
           border-radius: 50%;
           left: -12%;
           top: 40%;
-          background:linear-gradient(45deg, aqua,rgb(148, 148, 241));
+          background:linear-gradient(45deg, cornflowerblue,rgb(148, 148, 241));
           animation: object1 6s linear infinite;
       }
       .wrapper::after{
@@ -384,7 +384,7 @@
           border-radius: 50%;
           left: 35%;
           top: 12%;
-          background:linear-gradient(45deg, aqua,rgb(148, 148, 241));
+          background:linear-gradient(45deg, cornflowerblue,rgb(148, 148, 241));
           animation: object2 6s linear infinite;
       }
       @keyframes object1{
@@ -420,7 +420,7 @@
       height: 4px;
       width: 45px;
       bottom:10px;
-      color: aqua;
+      color: cornflowerblue;
       }
       h1{
           display: block;
@@ -430,7 +430,7 @@
           
       }
       .multiText{
-          color: aqua;
+          color: cornflowerblue;
           text-transform: capitalize;
       }
       p{
@@ -475,10 +475,10 @@
       
       }
       .buttonlink:hover{
-          background-color: aqua;
+          background-color: cornflowerblue;
       }
       button:hover{
-          background-color: aqua;
+          background-color: cornflowerblue;
       }
       .imgbox{
           position: relative;

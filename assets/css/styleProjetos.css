@@ -25,7 +25,7 @@
             justify-content: space-around;
             height: 70px;
             line-height: 50px;
-            background-color: aqua;
+            background-color: cornflowerblue;
             width: 100%; 
             margin: auto;
         
@@ -57,7 +57,7 @@
         }
         .navItens li:hover a,
     .links a{
-        color: aqua
+        color: cornflowerblue
     }
     .links a{
     font-size: 15px;
@@ -137,7 +137,7 @@
         justify-content: space-around;
         height: 70px;
         line-height: 50px;
-        background-color: aqua;
+        background-color: cornflowerblue;
         width: 100%;
         
         margin: auto;
@@ -169,7 +169,7 @@
         }
         .navItens li:hover a,
     .links a{
-        color: aqua
+        color: cornflowerblue
     }
     .links a{
     font-size: 15px;
@@ -237,7 +237,7 @@
     }
     
     .tecnologias{
-        color: aqua;
+        color: cornflowerblue;
         font-weight: 900;
     }
 }
@@ -252,7 +252,7 @@
         height: 80px;
         line-height: 80px;
         z-index: 111;
-        background-color: aqua;
+        background-color: cornflowerblue;
         width: 100%;
     }
     header {
@@ -283,7 +283,7 @@
         }
         .navItens li:hover a,
     .links a{
-        color: aqua
+        color: cornflowerblue
     }
     .links a{
     font-size: 30px;
@@ -351,7 +351,7 @@
     }
     
     .tecnologias{
-        color: aqua;
+        color: cornflowerblue;
         font-weight: 900;
     }
 }
