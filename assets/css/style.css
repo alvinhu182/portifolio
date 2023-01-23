@@ -61,6 +61,7 @@
             font-size: 1em;
             color: #3d535f;
             padding: 5px;
+            text-align: justify;
         }
         .btns{
             width: 80%;
