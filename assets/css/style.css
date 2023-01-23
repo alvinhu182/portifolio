@@ -11,14 +11,13 @@
         overflow: hidden;
       }
         nav{
-            display: flex;
-            justify-content: space-around;
-            height: 70px;
-            line-height: 50px;
-            background-color: cornflowerblue;
-            width: 100%;
-            
-            margin: auto;
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        line-height: 50px;
+        background-color: cornflowerblue;
+        width: 100%;
+        margin: auto;
            
         }
     
@@ -36,16 +35,7 @@
                 text-decoration: none;
                 text-transform: capitalize;
             }
-            .logo{
-            padding-left: 15px;
-            display: flex;
-            font-size: 20px;
-            font-weight: 800;
-            color: #3d535f;
-            letter-spacing: 1px;
-            cursor: pointer;
-            text-transform: uppercase;
-            }
+           
             .navItens li:hover a,
         .links a{
             color: cornflowerblue
@@ -55,6 +45,16 @@
         color: #3d535f;
         margin: 10px 8px;
         }
+        .logo{
+            padding-left: 5px;
+            display: flex;
+            font-size: 13px;
+            font-weight: 800;
+            color: #3d535f;
+            letter-spacing: 1px;
+            cursor: pointer;
+            text-transform: uppercase;
+            }
         h1{
             font-size: 2em;
           font-weight: 900;

@@ -11,51 +11,44 @@
 /* TABLETS E CELULARES */ 
 
 @media (min-width: 300px) {
-    .navbar {
-       width: 100%;
-       
-       
-    }  
     h2{
-        text-align:center
-       
+        text-align:center  
     }
     nav{
         display: flex;
-            justify-content: space-around;
-            height: 70px;
-            line-height: 50px;
-            background-color: cornflowerblue;
-            width: 100%; 
-            margin: auto;
+        justify-content: space-around;
+        height: 70px;
+        line-height: 50px;
+        background-color: cornflowerblue;
+        width: 100%;
+        margin: auto;
         
     }  
-    .navItens li a {
-        font-size: 10px;
-        color: #3d535f;
-        letter-spacing: 1px;
-        text-decoration: none;
-        text-transform: capitalize;
-            
+    .navItens{
+        display: flex;
         }
-        .navItens{
-            display: flex;
-            }
-            .navItens li{
-                list-style: none;
-                margin: 0 15px;
-            }
+        .navItens li{
+            list-style: none;
+            margin: 0 15px;
+        }
+        .navItens li a {
+            font-size: 10px;
+            color: #3d535f;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
         .logo{
-            padding-left: 15px;
+            padding-left: 5px;
             display: flex;
-            font-size: 20px;
+            font-size: 13px;
             font-weight: 800;
             color: #3d535f;
             letter-spacing: 1px;
             cursor: pointer;
             text-transform: uppercase;
-        }
-        .navItens li:hover a,
+            }
+    .navItens li:hover a,
     .links a{
         color: cornflowerblue
     }
