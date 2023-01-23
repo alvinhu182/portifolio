@@ -119,7 +119,7 @@
         }
         .imgbox img{
             position: relative;
-            
+            padding: 10px;
             width:120px;
             right: 35px;
             transform: rotateY(180deg);
