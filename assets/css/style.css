@@ -61,9 +61,7 @@
           color: #3d535f;
           padding-left: 5px ;
         }
-        .topline{
-            padding-left: 5px;
-        }
+        
         p{
             display: block;
             width: 90%;
@@ -130,7 +128,7 @@
         @keyframes animateUser{
             20%{
                 right: -10px;
-                top: 20px;
+                
             }
         }
         .imgbox #splash{
@@ -152,9 +150,11 @@
             font-size: 35px;
             letter-spacing: 5px;
             color: #3d535f;
+            padding-left: 5px;
+            }
         }
         
-    }
+    
 
 
 @media  (min-width: 768px) {
