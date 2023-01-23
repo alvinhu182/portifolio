@@ -37,7 +37,7 @@
                 text-transform: capitalize;
             }
             .logo{
-                padding-left: 15px;
+            padding-left: 15px;
             display: flex;
             font-size: 20px;
             font-weight: 800;
@@ -54,6 +54,15 @@
         font-size: 12px;
         color: #3d535f;
         margin: 10px 8px;
+        }
+        h1{
+            font-size: 2em;
+          font-weight: 900;
+          color: #3d535f;
+          padding-left: 5px ;
+        }
+        .topline{
+            padding-left: 5px;
         }
         p{
             display: block;
@@ -151,6 +160,11 @@
 @media  (min-width: 768px) {
   *{
     overflow: hidden;
+  }
+  h1{
+    font-size: 4em;
+          font-weight: 900;
+          color: #3d535f;
   }
     nav{
         display: flex;
@@ -413,6 +427,7 @@
           font-size: 4em;
           font-weight: 900;
           color: #3d535f;
+          
       }
       .multiText{
           color: aqua;
