@@ -21,6 +21,7 @@ nav{
     line-height: 80px;
     z-index: 111;
     background-color: aqua;
+    
 }
 .logo{
     display: flex;

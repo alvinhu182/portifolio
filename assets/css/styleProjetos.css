@@ -5,110 +5,345 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    height: 80px;
-    line-height: 80px;
-    z-index: 111;
-    background-color: aqua;
-    width: 100%;
-}
-header {
-    overflow: hidden; 
-  }
-  .navItens{
-    display: flex;
+
+
+
+/* TABLETS E CELULARES */ 
+
+@media (min-width: 480px) {
+    .navbar {
+       width: 100%;
+       
+    }  
+    h2{
+        text-align:center
+       
     }
-    .navItens li{
-        list-style: none;
-        margin: 0 15px;
-    }
-    .navItens li a {
-        font-size: 25px;
-        color: #3d535f;
-        letter-spacing: 3px;
-        text-decoration: none;
-        text-transform: capitalize;
-    }
-    .logo{
+    nav{
+        padding: 10px 5px 0px 10px;
         display: flex;
-        font-size: 40px;
-        font-weight: 800;
-        color: #3d535f;
-        letter-spacing: 3px;
-        cursor: pointer;
-        text-transform: uppercase;
+        flex-direction:inherit;
+        justify-content: space-around;
+        height: 55px;
+        line-height: 20px;
+        background-color: aqua;
+        width: 100%;
+    }  
+ 
+    .navItens li a {
+            font-size: 10px;
+            color: #3d535f;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: capitalize;
+            
+        }
+        .logo{
+            padding-left: 15px;
+            display: flex;
+            font-size: 20px;
+            font-weight: 800;
+            color: #3d535f;
+            letter-spacing: 1px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .navItens li:hover a,
+    .links a{
+        color: aqua
     }
-    .navItens li:hover a,
-.links a{
-    color: aqua
-}
-.links a{
-font-size: 30px;
-color: #3d535f;
-margin: 25px 10px;
-}
-
-
-  
-.h2 {
-	margin: 0;
-  }
-
-
-button{
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 25px;
-    font-weight: 400;
-    color: #fff;
-    background-color: #3d535f;
-    padding: 8px 14px;
-    margin: 40px 5px;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+    .links a{
+    font-size: 15px;
+    color: #3d535f;
+    margin: 25px 10px;
+    }
+    .projeto-descricao{
+        max-width: 470px
+    }
       
-}
-
-
-
- .img {
-     max-width: 600px; 
-     
+ 
+    
+    button{
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+        background-color: #3d535f;
+        padding: 8px 14px;
+        margin: 40px 5px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        box-shadow: 0 10px 5px rgba(0,0,0,0.4);
+          
     }
-.card-content{
-    display: flex;
-    gap: 30px;
-    padding: 20px 20px;
-    flex-wrap: wrap;
     
     
-
+    
+     .img {
+         max-width: 500px; 
+         
+        }
+    .card-content{
+        display: flex;
+        gap: 0px 30px;
+        padding: 10px 5px;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+    
+    .projetos{
+        
+        flex:  1 0 33%;
+        max-width: 600px;
+        margin-top:auto
+       
+       
+    }
+    
+    .botoes{
+        display: flex;
+        
+       
+    }
+    
+    li{
+        List-style-type: none
+    }
+    
+    .tecnologias{
+        color: aqua;
+        font-weight: 900;
+    }
 }
+/* LAPTOP, TELAS MENORES */ 
 
-.projetos{
-    
-    flex: 1 0 33%;
-    max-width: 600px;
-    margin-top:auto
+@media (min-width: 768px) {
    
-   
-}
-
-.botoes{
-    display: flex;
     
+    nav{
+        display: flex;
+        justify-content: space-around;
+        height: 70px;
+        line-height: 50px;
+        background-color: aqua;
+        width: 100%;
+        
+        margin: auto;
+       
+    }
+
+      .navItens{
+        display: flex;
+        }
+        .navItens li{
+            list-style: none;
+            margin: 0 15px;
+        }
+        .navItens li a {
+            font-size: 15px;
+            color: #3d535f;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+        .logo{
+            display: flex;
+            font-size: 20px;
+            font-weight: 800;
+            color: #3d535f;
+            letter-spacing: 3px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .navItens li:hover a,
+    .links a{
+        color: aqua
+    }
+    .links a{
+    font-size: 15px;
+    color: #3d535f;
+    margin: 10px 10px;
+    }
+    
+    
+      
+    .h2 {
+        margin: 0;
+        
+      }
+    
+    
+    button{
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 400;
+        color: #fff;
+        background-color: #3d535f;
+        padding: 8px 14px;
+        margin: 40px 5px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+          
+    }
+    
+    
+    
+     .img {
+         max-width: 600px; 
+         
+        }
+    .card-content{
+        display: flex;
+        gap: 30px;
+        padding: 20px 20px;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+    
+    .projetos{
+        
+        flex: 1 0 33%;
+        max-width: 600px;
+        margin-top:auto
+       
+       
+    }
+    
+    .botoes{
+        display: flex;
+        
+       
+    }
+    
+    li{
+        List-style-type: none
+    }
+    
+    .tecnologias{
+        color: aqua;
+        font-weight: 900;
+    }
+}
+/* COMPUTADORES */ 
+
+@media (min-width: 1200px) {
    
-}
-
-li{
-    List-style-type: none
-}
-
-.tecnologias{
-    color: aqua;
-    font-weight: 900;
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        line-height: 80px;
+        z-index: 111;
+        background-color: aqua;
+        width: 100%;
+    }
+    header {
+        overflow: hidden; 
+      }
+      .navItens{
+        display: flex;
+        }
+        .navItens li{
+            list-style: none;
+            margin: 0 15px;
+        }
+        .navItens li a {
+            font-size: 25px;
+            color: #3d535f;
+            letter-spacing: 3px;
+            text-decoration: none;
+            text-transform: capitalize;
+        }
+        .logo{
+            display: flex;
+            font-size: 40px;
+            font-weight: 800;
+            color: #3d535f;
+            letter-spacing: 3px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .navItens li:hover a,
+    .links a{
+        color: aqua
+    }
+    .links a{
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+    }
+    
+    
+      
+    .h2 {
+        margin: 0;
+        
+      }
+    
+    
+    button{
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 400;
+        color: #fff;
+        background-color: #3d535f;
+        padding: 8px 14px;
+        margin: 40px 5px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        box-shadow: 0 15px 10px rgba(0,0,0,0.4);
+          
+    }
+    
+    
+    
+     .img {
+         max-width: 600px; 
+         
+        }
+    .card-content{
+        display: flex;
+        gap: 30px;
+        padding: 20px 20px;
+        flex-wrap: wrap;
+        
+        
+    
+    }
+    
+    .projetos{
+        
+        flex: 1 0 33%;
+        max-width: 600px;
+        margin-top:auto
+       
+       
+    }
+    
+    .botoes{
+        display: flex;
+        
+       
+    }
+    
+    li{
+        List-style-type: none
+    }
+    
+    .tecnologias{
+        color: aqua;
+        font-weight: 900;
+    }
 }
