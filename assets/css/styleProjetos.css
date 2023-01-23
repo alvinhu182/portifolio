@@ -21,24 +21,30 @@
        
     }
     nav{
-        padding: 10px 5px 0px 10px;
         display: flex;
-        flex-direction:inherit;
-        justify-content: space-around;
-        height: 55px;
-        line-height: 20px;
-        background-color: aqua;
-        width: 100%;
+            justify-content: space-around;
+            height: 70px;
+            line-height: 50px;
+            background-color: aqua;
+            width: 100%; 
+            margin: auto;
+        
     }  
- 
     .navItens li a {
-            font-size: 10px;
-            color: #3d535f;
-            letter-spacing: 1px;
-            text-decoration: none;
-            text-transform: capitalize;
+        font-size: 10px;
+        color: #3d535f;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: capitalize;
             
         }
+        .navItens{
+            display: flex;
+            }
+            .navItens li{
+                list-style: none;
+                margin: 0 15px;
+            }
         .logo{
             padding-left: 15px;
             display: flex;
@@ -117,7 +123,7 @@
     }
     
     .tecnologias{
-        color: aqua;
+        color: #3d535f;
         font-weight: 900;
     }
 }
