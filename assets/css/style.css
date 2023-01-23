@@ -37,13 +37,14 @@
                 text-transform: capitalize;
             }
             .logo{
-                display: flex;
-                font-size: 10px;
-                font-weight: 800;
-                color: #3d535f;
-                letter-spacing: 3px;
-                cursor: pointer;
-                text-transform: uppercase;
+                padding-left: 15px;
+            display: flex;
+            font-size: 20px;
+            font-weight: 800;
+            color: #3d535f;
+            letter-spacing: 1px;
+            cursor: pointer;
+            text-transform: uppercase;
             }
             .navItens li:hover a,
         .links a{
@@ -59,6 +60,7 @@
             width: 90%;
             font-size: 1em;
             color: #3d535f;
+            padding: 5px;
         }
         .btns{
             width: 80%;
