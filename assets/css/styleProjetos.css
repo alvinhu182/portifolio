@@ -10,9 +10,10 @@
 
 /* TABLETS E CELULARES */ 
 
-@media (min-width: 480px) {
+@media (min-width: 400px) {
     .navbar {
        width: 100%;
+       
        
     }  
     h2{
@@ -58,7 +59,8 @@
     margin: 25px 10px;
     }
     .projeto-descricao{
-        max-width: 470px
+        max-width: 100%;
+        overflow-y: hidden;
     }
       
  
@@ -82,7 +84,7 @@
     
     
      .img {
-         max-width: 500px; 
+         max-width: 100%; 
          
         }
     .card-content{
@@ -97,9 +99,9 @@
     
     .projetos{
         
-        flex:  1 0 33%;
-        max-width: 600px;
-        margin-top:auto
+       
+        max-width: 100%;
+        
        
        
     }
