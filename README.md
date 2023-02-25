@@ -3,4 +3,4 @@ onde guardo meus projetos
 em andamento...
 
 
-https://portifolio182.netlify.app/
+https://portfolio182.netlify.app
