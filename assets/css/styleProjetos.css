@@ -97,12 +97,11 @@
     }
     
     .projetos{
-        
-       
         max-width: 100%;
-        
+    }
+    .projeto-descricao{
        
-       
+        height: 150px;
     }
     
     .botoes{
