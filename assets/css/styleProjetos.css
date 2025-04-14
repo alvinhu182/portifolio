@@ -50,7 +50,7 @@
             }
     .navItens li:hover a,
     .links a{
-        color: cornflowerblue
+        color: rgb(40, 59, 134)
     }
     .links a{
         font-size: 12px;
@@ -191,10 +191,14 @@
         letter-spacing: 2px;
         text-transform: capitalize;
         box-shadow: 0 15px 10px rgba(0,0,0,0.4);
-          
+        border-radius: 8px;
+        transition: transform 0.2s ease-in-out;
     }
     
-    
+    button:hover{
+        background-color: cornflowerblue;
+        transform: translateY(-5px)
+    }
     
      .img {
          max-width: 600px; 
@@ -205,6 +209,7 @@
         gap: 30px;
         padding: 20px 20px;
         flex-wrap: wrap;
+        justify-content: center;
         
         
     
@@ -221,8 +226,6 @@
     
     .botoes{
         display: flex;
-        
-       
     }
     
     li{
@@ -276,7 +279,7 @@
         }
         .navItens li:hover a,
     .links a{
-        color: cornflowerblue
+        color: rgb(40, 59, 134)
     }
     .links a{
     font-size: 30px;
